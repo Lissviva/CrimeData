@@ -1,2 +1,9 @@
 plotly
 folium
+streamlit
+pandas
+plotly
+folium
+streamlit-folium
+matplotlib
+seaborn
