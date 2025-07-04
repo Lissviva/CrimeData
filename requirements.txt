@@ -1,1 +1,2 @@
 plotly
+pip install folium
