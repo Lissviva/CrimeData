@@ -140,11 +140,10 @@ with tab3:
     
    with col5:
     # Filter only sexual offences
-    sexual_df = df[df['Crime type'] == 'Violence and sexual offences']
-
-    # Top 10 streets with most sexual offences
-    top_sexual = sexual_df['Location'].value_counts().head(10).reset_index()
-    top_sexual.columns = ['Location', 'Count']
+        sexual_df = df[df['Crime type'] == 'Violence and sexual offences']
+       # Top 10 streets with most sexual offences 
+top_sexual = sexual_df['Location'].value_counts().head(10).reset_index()
+top_sexual.columns = ['Location', 'Count']
 
     # Create chart
     fig7 = px.bar(
@@ -165,7 +164,7 @@ with tab3:
     
    with col6:
     # Filter only sexual offences
-    sexual_offences = df[df['Crime type'].str.strip() == 'Violence and sexual offences'].copy()
+        sexual_offences = df[df['Crime type'].str.strip() == 'Violence and sexual offences'].copy()
 
     # Ensure 'Month' column is datetime
     sexual_offences['Month'] = pd.to_datetime(sexual_offences['Month'])
