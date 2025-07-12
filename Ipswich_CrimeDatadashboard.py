@@ -319,7 +319,7 @@ with tab5:
 
         plt.figure(figsize=(10, 6))
         sns.barplot(data=ipswich_avg_df, x='Predicted Probability', y='Crime Type', palette='viridis')
-        plt.title("Top 10 Average Predicted Crime Risk in Ipswich", fontsize=14)
+        plt.title("Average Predicted Crime Risk in Ipswich", fontsize=14)
         plt.xlabel("Predicted Probability")
         plt.ylabel("Crime Type")
         plt.grid(axis='x', linestyle='--', alpha=0.7)
