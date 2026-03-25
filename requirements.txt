@@ -1,9 +1,9 @@
 streamlit
-plotly
 pandas
 numpy
+plotly
 scikit-learn
+matplotlib
+seaborn
 folium
 streamlit-folium
-seaborn
-matplotlib
